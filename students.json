@@ -1,0 +1,45 @@
+{
+    "students": [
+        {
+            "email": "c.monykuch@alustudent.com",
+            "names": "Chol Atem",
+            "courses_registered": [
+                {
+                    "name": "Introduction to python and databases",
+                    "trimester": "second",
+                    "credits": 4.0
+                },
+                {
+                    "name": "Introduction to python and databases",
+                    "trimester": "second",
+                    "credits": 4.0
+                }
+            ],
+            "GPA": 0.0
+        },
+        {
+            "email": "ajangakech681@gmail.com",
+            "names": "Ajang Akoi",
+            "courses_registered": [
+                {
+                    "name": "Introduction to python and databases",
+                    "trimester": "second",
+                    "credits": 4.0
+                }
+            ],
+            "GPA": 0.0
+        }
+    ],
+    "courses": [
+        {
+            "name": "Introduction to python and databases",
+            "trimester": "second",
+            "credits": 4.0
+        },
+        {
+            "name": "Linux",
+            "trimester": "Second",
+            "credits": 4.0
+        }
+    ]
+}
