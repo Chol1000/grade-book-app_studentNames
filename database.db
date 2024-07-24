@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS students (
+    email TEXT PRIMARY KEY,
+    names TEXT NOT NULL,
+    GPA REAL
+);
+
+CREATE TABLE IF NOT EXISTS courses (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    trimester TEXT,
+    credits REAL,
+    grade REAL,
+    student_email TEXT,
+    FOREIGN KEY (student_email) REFERENCES students (email)
+);
+
